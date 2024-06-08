@@ -47,20 +47,117 @@ body{
 
 }
 
-/* .circle{
-    position: relative;
-} */
+
 
 .main-camera{
     position: absolute;
-    /* bottom: 200px; */
+    
     bottom: 20px;
 }
 
+
+hr{
+    width: 1110px;
+    
+    border-color: #F1E4FF;
+}
+
+.logo-sec{
+    margin-top: 50px;
+}
+
+.logos{
+    
+    /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.popular-sec{
+    margin-top: 120px;
+}
+
+.head-text{
+    text-align: center;
+}
+
+
+.popular-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    row-gap: 20px;
+    
+}
+
+
+
+.image-box{
+    background-color: #F5FFFA;
+    border: solid;
+    width: 329px;
+    height: 485px;
+    border-radius: 10px;
+   
+    
+}
+
+.image{
+   padding: 10px;
+}
+
+.doller{
+   margin-bottom: 5px;
+}
+.icon{
+    margin-top: 3px;
+}
+
+
+.product-sec{
+    margin-top: 100px;
+}
+
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.footer-text{
+    
+    
+    width: 280px;
+    height: 150px;
+    margin: auto;
+    color: white;
+    
+    
+}
+
+.footer-text h2{
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.all{
+    padding-left: 45px;
+}
+
+footer{
+    background-color: #0A0826;
+    margin-top: 50px;
+}
+
+
+ 
 @media screen and (max-width:556px){
     header{
         width: 100%;
-        /* background-color: antiquewhite; */
+        
     }
     .title h2{
         padding-left: 10px;
@@ -69,10 +166,7 @@ body{
 
     .list-item ul{
         flex-direction: column;
-        /* margin-top: 90px;
-        margin-right: 50px; */
-        /* gap: 20px; */
-        /* background-color: brown; */
+        
         padding: 10px;
         margin: 7px;
         font-size: 16px;
@@ -87,7 +181,7 @@ body{
     }
 
     .influncer-journey{
-        /* width: 100%; */
+       
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -112,6 +206,69 @@ body{
         bottom: 5px;
         
     }
+
+    .logos{
+        display: grid;
+        grid-template-columns:repeat(4,1fr) ;
+        padding: 20px;
+        grid-row-gap: 15px;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    .alibaba img{
+        width: 33px;
+    }
+    .amazon img{
+        width: 50px;
+    }
+    .daraz img{
+        width: 50px ;
+    }
+    .ebay img{
+        width: 44px;
+    }
     
+    .rakuten img{
+        width: 57px;
+    }
+    .target img{
+        width: 67px;
+    }
+    .walmart img{
+        width: 67px;
+    }
+
+
+    .popular-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+
+    .products{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .products img{
+        width: 100%;
+
+    }
+    .footer-text{
+        width: 100%;
+        padding: 5px;
+    }
+
+    footer{
+        width: 100%;
+    }
 }
+
+
 
